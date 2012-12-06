@@ -86,6 +86,7 @@ ifneq ($(HAVE_NVIDIA_PROP_SRC),false)
 -include vendor/nvidia/build/definitions.mk
 endif
 
+TARGET_RECOVERY_INITRC := device/moto/wingray/recovery.rc
 TARGET_RECOVERY_UI_LIB := librecovery_ui_stingray
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
